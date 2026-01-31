@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  /* Your Typography */
+  --font-display: "Erica One", cursive;
+  --font-sans: "Public Sans", sans-serif;
+
+  /* Your Brand Palette */
+  --color-brand-yellow: #FFC700;
+  --color-brand-blue: #2563EB;
+  --color-brand-pink: #FAD4D4;
+  --color-brand-black: #111111;
+}
+
+html {
+  scroll-behavior: smooth;
+}

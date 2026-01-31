@@ -1,0 +1,22 @@
+---
+// This line fixes the "Action Required" message!
+import '../styles/global.css';
+
+// These bring in your specific fonts
+import '@fontsource/erica-one';
+import '@fontsource/public-sans/400.css';
+import '@fontsource/public-sans/700.css';
+
+const { title = "The Figuring Out Club" } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>{title}</title>
+	</head>
+	<body class="bg-brand-yellow text-brand-black font-sans antialiased">
+		<slot />
+	</body>
+</html>
